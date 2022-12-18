@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');  
+
+form {
+
+    padding: 20px;
+    width: 700px;
+      
+  }
+  label {
+    margin-bottom: 10px;
+    font-size: 20px;
+      vertical-align: middle;
+      padding-left: 10px;
+  }
+input[type="tel"] {
+    width: 670px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: #0096FF;
+    color: white;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+.form-div {
+    width: 700px;
+    margin: auto;
+}
+
+.select-row{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fafafa;
+    border: 2px solid #101010;
+    box-shadow: none;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+      vertical-align: middle;
+  }
+
+
+
+  /* Style the checkmark when it is checked */
+  input[type="checkbox"]:checked {
+    
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #0096FF;
+    border: 2px solid #101010;
+    box-shadow: none;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+      vertical-align: middle;
+  }
+.main-title {
+    font-family: sans-serif;
+    font-size: 16px;
+   
+    text-align: center;
+}
+
+
+
+.head-table {
+    color: white;
+    font-family: Oswald;
+    width: 100%;
+}
+.head-table tr td h1 {
+    line-height: 10px;
+    margin: none;
+    padding-left: 10px;
+}
+
+.head-table tr td a {
+    float: right;
+    padding-right: 20px;
+}
+
+form details summary {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+}
+form details p {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+from details::before {
+  content: url('arrow-down.png');
+  margin-right: 0.3em;
+}
+
+from details[open]::before {
+  content: url('arrow-up.png');
+}
