@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');  
 
-form {
+#error{
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  color: red;
+  display: none;
+}
+
+forma {
 
     padding: 20px;
     width: 700px;
@@ -12,7 +21,7 @@ form {
       vertical-align: middle;
       padding-left: 10px;
   }
-input[type="tel"] {
+input[type="tel"], input[type="name"] {
     width: 670px;
     padding: 14px;
     border: 1px solid #ccc;
@@ -101,13 +110,13 @@ input[type="tel"] {
     padding-right: 20px;
 }
 
-form details summary {
+forma details summary {
     font-family: sans-serif;
     text-align: center;
     padding-top: 10px;
     font-size: 13px;
 }
-form details p {
+forma details p {
     font-family: sans-serif;
     text-align: center;
     margin-top: 3px;

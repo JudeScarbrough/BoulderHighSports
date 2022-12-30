@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>BHS Sports</title>
         <link rel="stylesheet" href="index.css">
+        <script src="script.js"></script>
     </head>
     <header style="margin: 0px 0px; width: 100%; background-color: #1c1c1c">
     
@@ -23,53 +24,56 @@
       
       
     <div class="form-div">
-        <form>
+        <forma>
                 <h1 class="main-title">Sign up to receive notifications when your selected sporting events are coming up!</h1>
-                <input type="tel" id="phone" name="phone" placeholder="Phone Number Ex: 1234567890">
+                <input type="name" id="name" name="phone" placeholder="Full Name">
+                <h1 id="error" class="nameError">You must provide only your first and last name.</h1>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number (ex: 1234567890)">
+                <h1 id="error" class="phoneError">Phone number must only consist of 10 numbers with no formatting.</h1>
                 <div class="select-row">
-                    <input type="checkbox" id="MBH" name="MBH" value="Option 1">
+                    <input type="checkbox" id="MBH" name="MBH" class="s1">
                     <label for="option1">Men's Basketball (Home Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="MBA" name="MBA" value="Option 2">
+                    <input type="checkbox" id="MBA" name="MBA" class="s2">
                     <label for="option2">Men's Basketball (Away Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="WBH" name="WBH" value="WBH">
+                    <input type="checkbox" id="WBH" name="WBH" class="s3">
                     <label for="option3">Women's Basketball (Home Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="WBA" name="WBA" value="WBA">
+                    <input type="checkbox" id="WBA" name="WBA" class="s4">
                     <label for="option3">Women's Basketball (Away Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="MLH" name="MLH" value="MLH">
+                    <input type="checkbox" id="MLH" name="MLH" class="s5">
                     <label for="option3">Men's Lacrosse (Home Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="MLA" name="MLA" value="MLA">
+                    <input type="checkbox" id="MLA" name="MLA" class="s6">
                     <label for="option3">Men's Lacrosse (Away Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="WSH" name="WSH" value="WSH">
+                    <input type="checkbox" id="WSH" name="WSH" class="s7">
                     <label for="option1">Women's Soccer (Home Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="WSA" name="WSA" value="WSA">
+                    <input type="checkbox" id="WSA" name="WSA" class="s8">
                     <label for="option2">Women's Soccer (Away Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="UFH" name="UFH" value="UFH">
+                    <input type="checkbox" id="UFH" name="UFH" class="s9">
                     <label for="option3">Ultimate Frisbee (Home Games)</label><br>
                 </div>
                 <div class="select-row">
-                    <input type="checkbox" id="UFA" name="UFA" value="UFA">
+                    <input type="checkbox" id="UFA" name="UFA" class="s10">
                     <label for="option3">Ultimate Frisbee (Away Games)</label><br>
                 </div>
-
+                <h1 id="error" class="checkError">At least one checkbox must be checked.</h1>
           
-
-                <input type="submit" value="Submit">
+                <h1 id="error" class="success">Success!</h1>
+                <input type="submit" onclick="submitted()">
             
             
                 <details>
@@ -83,7 +87,7 @@
 
             
             
-            </form> 
+            </forma> 
         </div>
     </body>
 </html>
