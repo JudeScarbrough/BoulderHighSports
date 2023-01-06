@@ -11,6 +11,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.end_headers()
         content_length = int(self.headers['Content-Length'])
         body = self.rfile.read(content_length)
+        print("sending to sqlstart")
         sqlstart.start(body)
 
     def do_OPTIONS(self):
