@@ -24,7 +24,7 @@ forma {
 input[type="tel"], input[type="name"] {
     width: 670px;
     padding: 14px;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(0, 0, 0);
     margin-bottom: 10px;
     border-radius: 20px;
     font-size: 15px;
@@ -67,7 +67,9 @@ input[type="tel"], input[type="name"] {
       vertical-align: middle;
   }
 
-
+.headtitle{
+  color: black;
+}
 
   /* Style the checkmark when it is checked */
   input[type="checkbox"]:checked {
@@ -88,7 +90,7 @@ input[type="tel"], input[type="name"] {
 .main-title {
     font-family: sans-serif;
     font-size: 16px;
-   
+    color: black;
     text-align: center;
 }
 
