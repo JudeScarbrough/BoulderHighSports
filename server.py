@@ -1,5 +1,6 @@
 import http.server
 import socketserver
+import sqlstart
 
 PORT = 8000
 
@@ -10,9 +11,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.end_headers()
         content_length = int(self.headers['Content-Length'])
         body = self.rfile.read(content_length)
-        print("body string starts here:")
-        print(body)
-        print("end")
+        sqlstart.start(body)
 
     def do_OPTIONS(self):
         self.send_response(200)
