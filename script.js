@@ -112,7 +112,7 @@ function handleCheckBoxError(){
 function finalFunc(){
     // print data to console
     console.log(data)
-    fetch('http://35.162.225.23:8000/', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
+    fetch('http://34.220.148.83:8000/', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)});
 
 
     document.getElementsByClassName('success')[0].style.color = "blue"

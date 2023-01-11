@@ -2,8 +2,8 @@
 from twilio.rest import Client 
 
 def sendText(phoneNum, message):
-    account_sid = 'AC4516245caef9cb20ffffe78a3f264402' 
-    auth_token = '744969fa9fae703b3e9a5af3863b29f1' 
+    account_sid = '' 
+    auth_token = '' 
     client = Client(account_sid, auth_token) 
 
     editedNum = "+1" + phoneNum
