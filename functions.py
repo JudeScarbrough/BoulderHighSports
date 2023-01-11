@@ -6,7 +6,7 @@ def sendText(phoneNum, message):
     auth_token = '' 
     client = Client(account_sid, auth_token) 
 
-    editedNum = "+1" + phoneNum
+    editedNum = "+1" + str(phoneNum)
  
     message = client.messages.create(from_='+17208159342', body=message, to=editedNum) 
  

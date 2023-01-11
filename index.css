@@ -133,3 +133,163 @@ from details::before {
 from details[open]::before {
   content: url('arrow-up.png');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+.main-title{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+forma {
+
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.head-table {
+  color: white;
+  font-family: Oswald;
+  width: 100%;
+}
+.head-table tr td h1 {
+  line-height: 10px;
+  font-size: 60px;;
+  margin: none;
+  padding-left: 10px;
+  text-align: center;
+}
+
+
+
+.head-table tr td a {
+  display: none;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 45px;
+  vertical-align: middle;
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+input[type="tel"], input[type="name"] {
+  width: 100%;
+  height: 100px;
+  padding: 14px;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+  border-radius: 0px;
+  font-size: 15px;
+  font-size: 45px;
+  padding-left: 30px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 100px;
+  background-color: #0096FF;
+  color: white;
+  padding: 14px;
+  margin: 20px auto 0px auto;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  align-items: center;
+  font-size: 45px;
+}
+
+.form-div {
+  width: 100%;
+  margin: auto;
+}
+
+.select-row{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  width: 60px;
+  height: 60px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fafafa;
+  border: 4px solid #101010;
+  box-shadow: none;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+input[type="checkbox"]:checked {
+    
+  width: 60px;
+  height: 60px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #0096FF;
+  border: 4px solid #101010;
+  box-shadow: none;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.details{
+  font-size: 0.9rem;
+}
+.summary{
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+}
