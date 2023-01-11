@@ -164,7 +164,14 @@ from details[open]::before {
 
 
 
-@media screen and (max-width: 700px) {
+@media (hover: none) {
+    
+    
+   
+
+    body {
+        width: 100%;
+    }
 
 .main-title{
   font-size: 23px;
@@ -190,6 +197,7 @@ forma {
   margin: none;
   padding-left: 10px;
   text-align: center;
+  font-family: sans-serif;
 }
 
 
@@ -227,11 +235,11 @@ input[type="submit"] {
   background-color: #0096FF;
   color: white;
   padding: 14px;
-  margin: 20px auto 0px auto;
+  margin-top: 20px;
+  margin-left: 20px;
   border: none;
   cursor: pointer;
-  border-radius: 0px;
-  align-items: center;
+  border-radius: 4px;
   font-size: 45px;
 }
 
@@ -285,7 +293,9 @@ input[type="checkbox"]:checked {
   font-size: 0.9rem;
 }
 
-
+    #error {
+        padding-left: 30px;
+    }
 
 
 
